@@ -16,7 +16,7 @@ const FeatureBox = styled(Box)`
     transform: translateY(-50%) translateX(50%);
     width: 1px;
     height: 80%;
-    background-color: #2a2a2a;
+    background-color: #2d3142;
     display: none;
   }
   @media only screen and (min-width: ${(props) => props.theme.breakpoints[1]}) {
@@ -45,13 +45,13 @@ const FeatureBox = styled(Box)`
   }
   :hover i,
   :hover h3 {
-    color: #fff;
+    color: #10002b;
   }
   div {
     transition: 0.3s;
   }
   :hover div {
-    color: #fff;
+    color: #10002b;
   }
 `;
 
@@ -59,7 +59,7 @@ const WhyUsArea = () => {
   return (
     <Box
       as="section"
-      backgroundColor="#0d0d0d"
+      backgroundColor="#ffb4a2"
       pt={["50px", "50px", "100px"]}
       pb={["270px", "270px", "177px"]}
     >
@@ -72,43 +72,43 @@ const WhyUsArea = () => {
           >
             {/* Logo Image */}
             <Box
-              backgroundColor="#0d0d0d"
-              boxShadow="6px 6px 12px #0c0c0c, 
-              -6px -6px 12px #0e0e0e"
+              backgroundColor="#ffb4a2"
+              boxShadow="5px 5px 10px #de9d8d,
+              -5px -5px 10px #ffcbb7"
               borderRadius="40px"
               p={["10px", "10px", "40px"]}
               width={[1]}
               mb={["30px", "30px", "30px", 0]}
             >
-              <Image src="./logo_trnsprnt.svg" />
+              <Image src="./hkittylogo_whyus.svg" />
             </Box>
           </Column>
           <Column width={[1, 1, 1, 3 / 5]}>
             {/* Right side contents */}
             <Box py="30px" pl={[0, 0, 0, "50px"]}>
               <Heading
-                color="near-white"
+                color="#2d3142"
                 fontSize={["20px", "20px", "30px", "50px", "60px"]}
-                as="h3"
+                fontFamily="forma-djr-banner, sans-serif"
+                as="h4"
                 mb="15px"
               >
-                Why PIXBY?
+                Hungry Kitty's story
               </Heading>
-              <Text color="gray" fontSize="18px">
-              PIXBY is a token with unique abilities seen nowhere else before. Users can earn passive income by staking a minimal amount of 35,000 and a maximum of 2,500,000 PIXBY for each stake. Users have full control over their funds and staking period, not limited to the number of active stakes. Soon enough, stakeholders will also benefit from profit-sharing thanks to Escrow protocol. 
-              </Text>
-              <Heading
-                color="near-white"
-                fontSize={["20px", "20px", "30px", "50px", "60px"]}
-                as="h3"
-                mb="15px"
-                mt="50px"
+              <Text
+                color="#2d3142"
+                fontWeight="500"
+                fontSize="16px"
+                fontFamily="forma-djr-banner, sans-serif"
               >
-                Mission
-              </Heading>
-              <Text color="gray" fontSize="18px">
-                
-              Besides being a community-driven incentivized project, one of our goals is to create easy-to-use open-source instruments that will power dozens of new freelance markets around the world.
+                Hungry Kitty is not just a dog coin. IT’S A PAW-SIBILE UPRISING.
+                It is a cryptocurrency developed by the paw-some community of
+                cat lovers. With the a-paw-ling phenomenon of some dog breeds
+                going wild, one fur-midable opposition is standing ground to
+                reclaim the throne of meme world. Ignited by the elixir of an
+                amorphous plutonic crystal, this kitty’s hunger for justice goes
+                far beyond kicking some dog(e)’s a**. It is intended to bring a
+                revolutionary social and charitable movement.
               </Text>
             </Box>
           </Column>
@@ -123,17 +123,12 @@ const WhyUsArea = () => {
             py={["15px", "30px", "30px", "40px", "60px"]}
           >
             <Image src={require("./chat.svg")} width="25%" mb="5px" />
-            <Heading
-              color="near-white"
-              fontSize="18px"
-              as="h3"
-              mt="30px"
-              mb="15px"
-            >
+            <Heading color="black" fontSize="18px" as="h3" mt="30px" mb="15px">
               24/7 Community Support
             </Heading>
-            <Text color="gray">
-            Want help from the community or team? Join our Discord server to get prompt guidance!
+            <Text color="dark-gray">
+              Want help from the community or team? Join our Telegram community
+              to get a prompt guidance!
             </Text>
           </FeatureBox>
           <FeatureBox
@@ -142,17 +137,13 @@ const WhyUsArea = () => {
             py={["15px", "30px", "30px", "40px", "60px"]}
           >
             <Image src={require("./rewards.svg")} width="25%" mb="5px" />
-            <Heading
-              color="near-white"
-              fontSize="18px"
-              as="h3"
-              mt="30px"
-              mb="15px"
-            >
-              Predicted daily rewards
+            <Heading color="black" fontSize="18px" as="h3" mt="30px" mb="15px">
+              Anti-bot mechanism
             </Heading>
-            <Text color="gray">
-            Staking PIXBY is fun and easy! It only takes a minute to start, and you always know what your reward will be because a smart-contract backs it.
+            <Text color="dark-gray">
+              30 seconds cool downs and tax on every transaction will discourage
+              bots to swing trading. Apart from that we can permanently
+              blacklists bots from trading $HKITTY.
             </Text>
           </FeatureBox>
           <FeatureBox
@@ -161,74 +152,12 @@ const WhyUsArea = () => {
             py={["15px", "30px", "30px", "40px", "60px"]}
           >
             <Image src={require("./decentralized.svg")} width="25%" mb="5px" />
-            <Heading
-              color="near-white"
-              fontSize="18px"
-              as="h3"
-              mt="30px"
-              mb="15px"
-            >
+            <Heading color="black" fontSize="18px" as="h3" mt="30px" mb="15px">
               Decentralized
             </Heading>
-            <Text color="gray">
-            PIXBY is a decentralized asset, and that means that no government or authority has control over it.
-            </Text>
-          </FeatureBox>
-          <FeatureBox
-            width={[1, 1, 1 / 2, 1 / 3]}
-            px={["30px", "30px", "30px", "70px", "80px"]}
-            py={["15px", "30px", "30px", "40px", "60px"]}
-          >
-            <Image src={require("./ethereum.svg")} width="25%" mb="5px" />
-            <Heading
-              color="near-white"
-              fontSize="18px"
-              as="h3"
-              mt="30px"
-              mb="15px"
-            >
-              Operates on Ethereum network
-            </Heading>
-            <Text color="gray">
-            Written in solidity by the best developers. PIXBY operates on the Ethereum network and uses the ERC20 standard, giving token holders the flexibility to store, trade, and transfer tokens.
-            </Text>
-          </FeatureBox>
-          <FeatureBox
-            width={[1, 1, 1 / 2, 1 / 3]}
-            px={["30px", "30px", "30px", "70px", "80px"]}
-            py={["15px", "30px", "30px", "40px", "60px"]}
-          >
-            <Image src={require("./noncustodial.svg")} width="25%" mb="5px" />
-            <Heading
-              color="near-white"
-              fontSize="18px"
-              as="h3"
-              mt="30px"
-              mb="15px"
-            >
-             Non-custodial
-            </Heading>
-            <Text color="gray">
-            All users staked collateral are locked in the smart contract without PIXBY developers having any direct or indirect access to those funds. No one can steal your collateral from you.
-            </Text>
-          </FeatureBox>
-          <FeatureBox
-            width={[1, 1, 1 / 2, 1 / 3]}
-            px={["30px", "30px", "30px", "70px", "80px"]}
-            py={["15px", "30px", "30px", "40px", "60px"]}
-          >
-            <Image src={require("./23.svg")} width="25%" mb="5px" />
-            <Heading
-              color="near-white"
-              fontSize="18px"
-              as="h3"
-              mt="30px"
-              mb="15px"
-            >
-              23% Annual Percentage Yield
-            </Heading>
-            <Text color="gray">
-            Earn 23% of ROI at no effort! There's no need for any costly equipment, either running a node. Smart-contract does everything for you!
+            <Text color="dark-gray">
+              PIXBY is a decentralized asset, and that means that no government
+              or authority has control over it.
             </Text>
           </FeatureBox>
         </Row>

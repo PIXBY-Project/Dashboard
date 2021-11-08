@@ -10,7 +10,6 @@ import WalletIcons from "../views/Home/AppsArea/WalletIcons";
 import ExchangeIcons from "../views/Home/AppsArea/ExchangeIcons";
 import Head from "next/head";
 
-
 const Home = () => {
   return (
     <MainLayout>
@@ -21,8 +20,6 @@ const Home = () => {
       <StakingArea />
       <WhyUsArea />
       <WorkProcessArea />
-      <PixbyGames />
-      <StakingHistoryArea />
       <Call2ActionArea />
     </MainLayout>
   );

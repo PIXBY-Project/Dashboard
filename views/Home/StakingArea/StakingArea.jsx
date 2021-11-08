@@ -50,7 +50,7 @@ const StakingArea = () => {
           {/* Left side box */}
           <StakingBox
             width={[1, `calc(50% - 5px)`]}
-            bg="#0d0d0d"
+            bg="#ffb4a2"
             borderRadius="20px"
             left
             mr={[0, "5px"]}
@@ -68,7 +68,7 @@ const StakingArea = () => {
                 color="white"
                 mb={["25px"]}
               >
-                Cold Staking
+                Community Focused
               </Heading>
               <Box className="content">
                 <Text
@@ -76,7 +76,10 @@ const StakingArea = () => {
                   fontWeight={400}
                   color="whites.11"
                 >
-                   Earn 23% of annual passive income and get<br /> daily rewards for locking your pixby tokens.<br /> Take control of duration and income by<br /> choosing how much and how long to stake. {""}
+                  Earn 23% of annual passive income and get
+                  <br /> daily rewards for locking your pixby tokens.
+                  <br /> Take control of duration and income by
+                  <br /> choosing how much and how long to stake. {""}
                 </Text>
               </Box>
             </StakingBoxContent>
@@ -84,7 +87,7 @@ const StakingArea = () => {
           {/* Right side box */}
           <StakingBox
             width={[1, `calc(50% - 5px)`]}
-            bg="#0d0d0d"
+            bg="#ffb4a2"
             borderRadius="20px"
             mr={[0, "5px"]}
             py={["100px", "100px", "110px", "180px"]}
@@ -104,7 +107,7 @@ const StakingArea = () => {
                 color="white"
                 mb={["25px"]}
               >
-                Request Payment
+                Automatic LP
               </Heading>
               <Box className="content">
                 <Text
@@ -112,17 +115,10 @@ const StakingArea = () => {
                   fontWeight={400}
                   color="whites.11"
                 >
-                  Pay for goods and services worry free!<br /> We're developing an advanced Escrow protocol<br /> which allows smooth transactions for both<br /> buyers and sellers. 
+                  Every trade contributes towards <br /> auto-generating
+                  liquidity that goes <br /> into multiple pools used by
+                  exchanges.
                 </Text>
-
-                <RimbleLink
-                  color="whites.11"
-                  hoverColor="whites.11"
-                  mt="20px"
-                  display="inline-block"
-                >
-                  *Coming Soon
-                </RimbleLink>
               </Box>
             </StakingBoxContent>
           </StakingBox>

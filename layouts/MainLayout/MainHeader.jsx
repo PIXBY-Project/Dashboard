@@ -94,7 +94,7 @@ const MainHeader = () => {
         <Row>
           <Column width={1 / 2} color="black">
             <Logo href="/" height="200px">
-              <img height="100%" src="/logo.svg" alt="Pixby" />
+              <img height="100%" src="/hkittylogo.svg" alt="Hungry Kitty" />
             </Logo>
           </Column>
           <Column
