@@ -29,13 +29,13 @@ const HeroArea = () => {
             <Heading
               as="h2"
               fontSize={["40px", "40px", "50px", "80px", "65px"]}
-              fontWeight="800"
-              fontFamily="forma-djr-banner, sans-serif"
+              fontWeight="400"
+              fontFamily="variex, sans-serif"
               color="black"
             >
               <strong>
-                Welcome to Hungry Kitty - <br /> Community focused <br /> meme
-                token.⚡{" "}
+                Welcome to Hungry Kitty -  Community focused meme
+                token.⚡
               </strong>
             </Heading>
             <Text
@@ -43,7 +43,7 @@ const HeroArea = () => {
               mt={["20px", "20px", "25px", "30px"]}
               fontSize={["13px", "13px", "15px", "20px", "20px"]}
             >
-              Hold Hungry Kitty in your wallet to receive rewards.
+              Become a part of the most PAW-some communitty!🐾
             </Text>
             {/* Hero area buttons */}
             <Flex justifyContent="center">

@@ -43,7 +43,7 @@ class MyDocument extends Document {
         <link
           href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
           rel="stylesheet"
-          href="https://use.typekit.net/zrp8rvq.css"
+          href="https://use.typekit.net/ine8zjj.css"
           rel="stylesheet"
         />
         <script src="https://use.fontawesome.com/a4424c943f.js"></script>

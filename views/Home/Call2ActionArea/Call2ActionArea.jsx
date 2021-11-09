@@ -6,12 +6,12 @@ import Column from "../../../components/Column/Column";
 
 const Call2ActionArea = () => {
   return (
-    <Box backgroundColor="#000" py={["75px"]} as="section">
+    <Box backgroundColor="#3d405b" py={["75px"]} as="section">
       <Container>
         <Box
           backgroundColor="#F7F6FA"
-          boxShadow="20px 20px 60px #040404, 
-          -20px -20px 60px #060606"
+          boxShadow="20px 20px 60px #34364d,
+          -20px -20px 60px #464a69"
           borderRadius="30px"
           p={["60px"]}
         >

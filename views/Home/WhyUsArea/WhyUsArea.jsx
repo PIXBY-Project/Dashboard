@@ -45,13 +45,13 @@ const FeatureBox = styled(Box)`
   }
   :hover i,
   :hover h3 {
-    color: #10002b;
+    color: #FFFCEE;
   }
   div {
     transition: 0.3s;
   }
   :hover div {
-    color: #10002b;
+    color: #FFFCEE;
   }
 `;
 
@@ -59,7 +59,7 @@ const WhyUsArea = () => {
   return (
     <Box
       as="section"
-      backgroundColor="#ffb4a2"
+      backgroundColor="#3d405b"
       pt={["50px", "50px", "100px"]}
       pb={["270px", "270px", "177px"]}
     >
@@ -71,32 +71,24 @@ const WhyUsArea = () => {
             justifyContent="center"
           >
             {/* Logo Image */}
-            <Box
-              backgroundColor="#ffb4a2"
-              boxShadow="5px 5px 10px #de9d8d,
-              -5px -5px 10px #ffcbb7"
-              borderRadius="40px"
-              p={["10px", "10px", "40px"]}
-              width={[1]}
-              mb={["30px", "30px", "30px", 0]}
-            >
-              <Image src="./hkittylogo_whyus.svg" />
-            </Box>
+
+              <Image src="./hkittylogo_whyus.png" />
           </Column>
           <Column width={[1, 1, 1, 3 / 5]}>
             {/* Right side contents */}
             <Box py="30px" pl={[0, 0, 0, "50px"]}>
               <Heading
-                color="#2d3142"
+                color="#fff"
                 fontSize={["20px", "20px", "30px", "50px", "60px"]}
-                fontFamily="forma-djr-banner, sans-serif"
-                as="h4"
+                fontFamily="variex, sans-serif"
+                fontWeight="400"
+                as="h5"
                 mb="15px"
               >
                 Hungry Kitty's story
               </Heading>
               <Text
-                color="#2d3142"
+                color="#fff"
                 fontWeight="500"
                 fontSize="16px"
                 fontFamily="forma-djr-banner, sans-serif"
@@ -110,6 +102,13 @@ const WhyUsArea = () => {
                 far beyond kicking some dog(e)’s a**. It is intended to bring a
                 revolutionary social and charitable movement.
               </Text>
+              <Text
+                marginTop={[2, 2, 3, 2]}
+                color="#fff"
+                fontWeight="500"
+                fontSize="16px"
+                fontFamily="forma-djr-banner, sans-serif"
+              >Hosted on the Binance Smart Chain network at its core, the decentralised token called HKITTY. HKITTY is a community focussed mew-ow coin which will provide its holders a chance to earn hefty rewards. Envisaged as a fun, light-hearted cryptocurrency that would have greater appeal beyond the core meme coin investors, HKITTY plans to have its own merchandise marketplace. The earnings from the marketplace will be utilised to fund cat shelters across ____.</Text>
             </Box>
           </Column>
         </Row>
@@ -122,13 +121,12 @@ const WhyUsArea = () => {
             px={["30px", "30px", "30px", "70px", "80px"]}
             py={["15px", "30px", "30px", "40px", "60px"]}
           >
-            <Image src={require("./chat.svg")} width="25%" mb="5px" />
-            <Heading color="black" fontSize="18px" as="h3" mt="30px" mb="15px">
-              24/7 Community Support
+            <Image src={require("./pancakeswap-cake-logo.svg")} width="40%" mb="5px" />
+            <Heading color="white" fontSize="18px" as="h3" mt="30px" mb="15px">
+              Liquidity locked with PancakSwap
             </Heading>
-            <Text color="dark-gray">
-              Want help from the community or team? Join our Telegram community
-              to get a prompt guidance!
+            <Text color="white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sint facere accusamus, soluta dolor ducimus dolores ea quo placeat voluptates debitis. 
             </Text>
           </FeatureBox>
           <FeatureBox
@@ -136,14 +134,12 @@ const WhyUsArea = () => {
             px={["30px", "30px", "30px", "70px", "80px"]}
             py={["15px", "30px", "30px", "40px", "60px"]}
           >
-            <Image src={require("./rewards.svg")} width="25%" mb="5px" />
-            <Heading color="black" fontSize="18px" as="h3" mt="30px" mb="15px">
-              Anti-bot mechanism
+            <Image src={require("./lp.svg")} width="40%" mb="5px" />
+            <Heading color="white" fontSize="18px" as="h3" mt="30px" mb="15px">
+              Automatic Liquidity Generation
             </Heading>
-            <Text color="dark-gray">
-              30 seconds cool downs and tax on every transaction will discourage
-              bots to swing trading. Apart from that we can permanently
-              blacklists bots from trading $HKITTY.
+            <Text color="white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sint facere accusamus, soluta dolor ducimus dolores ea quo placeat voluptates debitis. 
             </Text>
           </FeatureBox>
           <FeatureBox
@@ -151,13 +147,12 @@ const WhyUsArea = () => {
             px={["30px", "30px", "30px", "70px", "80px"]}
             py={["15px", "30px", "30px", "40px", "60px"]}
           >
-            <Image src={require("./decentralized.svg")} width="25%" mb="5px" />
-            <Heading color="black" fontSize="18px" as="h3" mt="30px" mb="15px">
-              Decentralized
+            <Image src={require("./antibot.svg")} width="40%" mb="5px" />
+            <Heading color="white" fontSize="18px" as="h3" mt="30px" mb="15px">
+              Anti bot mechanism
             </Heading>
-            <Text color="dark-gray">
-              PIXBY is a decentralized asset, and that means that no government
-              or authority has control over it.
+            <Text color="white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sint facere accusamus, soluta dolor ducimus dolores ea quo placeat voluptates debitis. 
             </Text>
           </FeatureBox>
         </Row>

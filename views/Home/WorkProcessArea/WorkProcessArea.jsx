@@ -79,32 +79,19 @@ const WorkProcessArea = (props) => {
             textAlign="center"
           >
             <Loader loading={loading} color="#06ff76" />
-            {error && <p>Some thing went wrong. Please try again</p>}
-            {!error && !loading && (
               <Row>
                 <Column width={[1, 1, 1 / 3]} textAlign="center" color="black">
                   <Heading as="h4" fontWeight="400" color="black">
                     Price
                   </Heading>
                   <Text
-                    color={
-                      data.currentPrice.priceChange < 0 ? "red" : "#06ff76 "
-                    }
                     fontSize={["15px", "20px", "15px", "15px", "35px"]}
                     fontWeight="200"
-                    fontFamily="roboto"
+                    
                   >
-                    <i
-                      className={`fa ${
-                        data.currentPrice.priceChange < 0
-                          ? "fa-caret-down"
-                          : "fa-caret-up"
-                      }`}
-                      style={{ fontSize: "60%" }}
-                    ></i>
-                    {data.currentPrice.usd}$
+                    0.000059
                   </Text>
-                  {data.currentPrice.priceChange}$
+                  
                 </Column>
                 <Column
                   width={[1, 1, 1 / 3]}
@@ -113,17 +100,16 @@ const WorkProcessArea = (props) => {
                   mt={["30px", "30px", 0]}
                 >
                   <Heading as="h4" fontWeight="400" color="black">
-                    Volume
+                    Total Supply
                   </Heading>
                   <Text
                     color="black"
                     fontSize={["15px", "20px", "15px", "15px", "35px"]}
                     fontWeight="200"
-                    fontFamily="roboto"
+                    
                   >
-                    {data.totalVolume.usd}$
+                    1.8B
                   </Text>
-                  {data.totalVolume.btc}BTC
                 </Column>
                 <Column
                   width={[1, 1, 1 / 3]}
@@ -132,21 +118,18 @@ const WorkProcessArea = (props) => {
                   mt={["30px", "30px", 0]}
                 >
                   <Heading as="h4" fontWeight="400" color="black">
-                    MarketCap
+                    Initial Market Cap
                   </Heading>
                   <Text
                     color="black"
                     fontSize={["15px", "20px", "15px", "15px", "35px"]}
                     fontWeight="200"
-                    fontWeight="200"
-                    fontFamily="roboto"
+                    
                   >
-                    {data.marketCap.circulating} PIXBY
+                    60,000$
                   </Text>
-                  {(data.marketCap.totalSupply / 1000000).toFixed(1)}MM PIXBY
                 </Column>
               </Row>
-            )}
           </ChartBox>
         </Container>
       </Box>

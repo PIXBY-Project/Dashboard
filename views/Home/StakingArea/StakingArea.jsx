@@ -50,7 +50,7 @@ const StakingArea = () => {
           {/* Left side box */}
           <StakingBox
             width={[1, `calc(50% - 5px)`]}
-            bg="#ffb4a2"
+            bg="#3d405b"
             borderRadius="20px"
             left
             mr={[0, "5px"]}
@@ -87,7 +87,7 @@ const StakingArea = () => {
           {/* Right side box */}
           <StakingBox
             width={[1, `calc(50% - 5px)`]}
-            bg="#ffb4a2"
+            bg="#3d405b"
             borderRadius="20px"
             mr={[0, "5px"]}
             py={["100px", "100px", "110px", "180px"]}
